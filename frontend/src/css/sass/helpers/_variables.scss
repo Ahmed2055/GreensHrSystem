@@ -1,0 +1,43 @@
+$mainColor : #07ABA0 ;
+$mainColorLight : #37DBD0 ;
+$mainColorDark :#015b51;
+$lightShade : #ECF0F1 ;
+$mediumShade : #BDC3C7 ;
+$darkShade : #7F8C8D ;
+$mainFontSize:16px;
+
+
+.hidden{
+    display: none;
+}
+
+.visible{
+    visibility: none;
+}
+
+.flowRow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.mainDarkColor{
+    color: $mainColorDark !important ;
+}
+
+.darkBtn{
+    background-color: $mainColorDark !important ;
+}
+
+.underlined{
+    text-decoration: underline;
+}
+
+.verticallyBordered{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 50px;
+}
+
+@media (max-width: 667px) {}
+
+@media (min-width: 668px) {}

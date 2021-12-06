@@ -1,0 +1,1618 @@
+.hidden {
+  display: none;
+}
+
+.visible {
+  visibility: none;
+}
+
+.flowRow, .wcfc__bodyDiv .accAllUsers__line, .dashAddUser .dashAddUser__line, .pharmacyReportType, .dashHome__mainHeader, .addDailyReport .addDailyReport__line, .spcb__container .spcb__remarksDiv, .slipPage .slipPage__centeredContainer .slipPage__bodyContainer .slipPage__containerBottom .spcb__line, .slipPage .slipPage__centeredContainer .slipPage__bodyContainer .slipPage__containerTop, .leaveRequest__bodyContainer .leaveRequest__Line, .leaveRequest__bodyContainer, .payrollHistory__container .payrollHistory__title .payrollHistory__titleLeft, .payrollHistory__container .payrollHistory__title, .profileContainer .profileContainer__details .profileDetails__personalInfo .profileDetails__personalInfoBody .profileDetails__personalInfoDetail, .profileContainer .profileContainer__details .profileDetails__title .profileDetails__tabs, .profileContainer .profileContainer__details .profileDetails__title .profileDetails__titleLeft, .profileContainer .profileContainer__details .profileDetails__title, .vaccine .vaccine__container .vaccine__details .vaccine__detail, .vaccine .vaccine__container .vaccine__title .vaccine__titleLeft, .vaccine .vaccine__container .vaccine__title, .monthlyReport .monthlyReport__table, .leaveComponent .leaveC__line, .payrollDetails .payrollDetails__personalDetails, .emergencyContactInfo__contentInputs .emergencyContactInfo__Line, .profileOverView .profileOverView__content, .emergencyContactInfo .profileOverView__content, .emergencyContactInfo .emergencyContactInfo__content, .profileOverView .profileOverView__title .profileOverView__titleLeft, .emergencyContactInfo .profileOverView__title .profileOverView__titleLeft, .emergencyContactInfo .emergencyContactInfo__title .profileOverView__titleLeft, .emergencyContactInfo .emergencyContactInfo__title .emergencyContactInfo__titleLeft, .profileOverView .profileOverView__title, .emergencyContactInfo .profileOverView__title, .emergencyContactInfo .emergencyContactInfo__title, .locationHeader, .secondHeader .secondHeader__Link .secondHeader__LinkList .secondHeader__LinkItem, .whiteCenteredFlexibleContainer .wcfc__titleDiv .wcfc__title, .whiteCenteredFlexibleContainer .wcfc__titleDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.mainDarkColor {
+  color: #015b51 !important;
+}
+
+.darkBtn {
+  background-color: #015b51 !important;
+}
+
+.underlined {
+  text-decoration: underline;
+}
+
+.verticallyBordered {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  width: 50px;
+}
+
+@media (max-width: 667px) {
+  .pageCentered__body {
+    min-width: 400px !important;
+  }
+
+  .smallerOnMobile {
+    font-size: 0.8em;
+  }
+}
+.pageCentered__body {
+  margin: 20px auto;
+  width: 80vw;
+  min-width: 700px;
+}
+
+.whiteCenteredFlexibleContainer {
+  padding: 2vh 3vw;
+  background-color: white;
+  margin: 10px auto;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  border-radius: 10px;
+}
+.whiteCenteredFlexibleContainer .wcfc__titleDiv {
+  justify-content: space-between;
+  padding: 0.5vh 1vw;
+  border-bottom: 1px solid #ECF0F1;
+  color: #07ABA0;
+}
+.whiteCenteredFlexibleContainer .wcfc__titleDiv .wcfc__title .material-icons {
+  float: right;
+  font-size: 1.5em !important;
+}
+.whiteCenteredFlexibleContainer .wcfc__titleDiv .wcfc__title .wcfc__titleText {
+  margin-left: 1vw;
+}
+.whiteCenteredFlexibleContainer .wcfc__titleDiv .wcfc__btnExpand {
+  cursor: pointer;
+}
+.red {
+  color: red !important;
+}
+
+.greenBackGround {
+  background-color: green !important;
+}
+
+.redBackGround {
+  background-color: red !important;
+}
+
+.green {
+  color: green !important;
+}
+
+.black {
+  color: black !important;
+}
+
+.yellow {
+  color: #caca05 !important;
+}
+
+.darkBlue {
+  color: darkblue !important;
+}
+
+.darkGray {
+  color: #7F8C8D !important;
+}
+
+.hidden {
+  display: none;
+}
+
+.visible {
+  visibility: none;
+}
+
+.flowRow, .wcfc__bodyDiv .accAllUsers__line, .dashAddUser .dashAddUser__line, .pharmacyReportType, .dashHome__mainHeader, .addDailyReport .addDailyReport__line, .spcb__container .spcb__remarksDiv, .slipPage .slipPage__centeredContainer .slipPage__bodyContainer .slipPage__containerBottom .spcb__line, .slipPage .slipPage__centeredContainer .slipPage__bodyContainer .slipPage__containerTop, .leaveRequest__bodyContainer .leaveRequest__Line, .leaveRequest__bodyContainer, .payrollHistory__container .payrollHistory__title .payrollHistory__titleLeft, .payrollHistory__container .payrollHistory__title, .profileContainer .profileContainer__details .profileDetails__personalInfo .profileDetails__personalInfoBody .profileDetails__personalInfoDetail, .profileContainer .profileContainer__details .profileDetails__title .profileDetails__tabs, .profileContainer .profileContainer__details .profileDetails__title .profileDetails__titleLeft, .profileContainer .profileContainer__details .profileDetails__title, .vaccine .vaccine__container .vaccine__details .vaccine__detail, .vaccine .vaccine__container .vaccine__title .vaccine__titleLeft, .vaccine .vaccine__container .vaccine__title, .monthlyReport .monthlyReport__table, .leaveComponent .leaveC__line, .payrollDetails .payrollDetails__personalDetails, .emergencyContactInfo__contentInputs .emergencyContactInfo__Line, .profileOverView .profileOverView__content, .emergencyContactInfo .profileOverView__content, .emergencyContactInfo .emergencyContactInfo__content, .profileOverView .profileOverView__title .profileOverView__titleLeft, .emergencyContactInfo .profileOverView__title .profileOverView__titleLeft, .emergencyContactInfo .emergencyContactInfo__title .profileOverView__titleLeft, .emergencyContactInfo .emergencyContactInfo__title .emergencyContactInfo__titleLeft, .profileOverView .profileOverView__title, .emergencyContactInfo .profileOverView__title, .emergencyContactInfo .emergencyContactInfo__title, .locationHeader, .secondHeader .secondHeader__Link .secondHeader__LinkList .secondHeader__LinkItem, .whiteCenteredFlexibleContainer .wcfc__titleDiv, .whiteCenteredFlexibleContainer .wcfc__titleDiv .wcfc__title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.mainDarkColor {
+  color: #015b51 !important;
+}
+
+.darkBtn {
+  background-color: #015b51 !important;
+}
+
+.shadowedMargin {
+  margin: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.normalWeight {
+  font-weight: 400 !important;
+}
+
+.bigger {
+  font-size: 1.2em;
+}
+
+.smaller {
+  font-size: 0.8em;
+}
+
+.pointer {
+  cursor: pointer !important;
+}
+
+.notUnderlined {
+  text-decoration: none;
+}
+
+.wcfc__btnSubmit {
+  padding: 7px 12px;
+  color: white;
+  background-color: #07ABA0;
+  border: none;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  margin: 20px;
+}
+.wcfc__btnSubmit:hover {
+  background-color: #37DBD0;
+}
+
+.justifyEvenly {
+  justify-content: space-evenly;
+  margin: 15px;
+}
+
+.inlineBlockDispaly {
+  display: inline-block !important;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.floatRight {
+  float: right;
+}
+
+@media (max-width: 667px) {
+  .mainHeader {
+    justify-content: space-between !important;
+  }
+
+  .mainHeader__accountName {
+    max-width: 200px;
+    font-size: 14px !important;
+  }
+}
+.mainHeader {
+  background-color: white;
+  flex: 1;
+  padding: 5px 5vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.mainHeader .mainHeader__logoDiv {
+  align-items: center;
+  margin-right: 10vw;
+}
+.mainHeader .mainHeader__logoDiv .mainHeader__logoImg {
+  width: 150px;
+}
+.mainHeader .mainHeader__accountDiv {
+  display: flex;
+  flex-shrink: row;
+  justify-content: space-evenly;
+  align-items: center;
+  text-decoration: none;
+}
+.mainHeader .mainHeader__accountDiv:hover {
+  text-decoration: underline;
+  text-decoration-color: #BDC3C7;
+}
+.mainHeader .mainHeader__accountDiv .mainHeader__accountIcon {
+  margin-right: 2vw;
+  color: #07ABA0;
+}
+.mainHeader .mainHeader__accountDiv .mainHeader__accountName {
+  color: #7F8C8D;
+}
+
+@media (max-width: 667px) {
+  .secondHeader__Link {
+    font-size: 14px !important;
+    min-width: 85px !important;
+  }
+}
+@media (min-width: 668px) {
+  .secondHeader__LinkList {
+    top: 42px !important;
+  }
+}
+@media (max-width: 473px) {
+  .secondHeader__shorterWidth {
+    left: -40px !important;
+    min-width: 115px !important;
+  }
+
+  .secondHeader__lessShorterWidth {
+    left: -30px !important;
+    min-width: 135px !important;
+  }
+}
+.secondHeader {
+  background-color: #015b51;
+  flex-direction: row;
+  align-items: center;
+  height: fit-content;
+  padding: 2vh 5vw 2vh 5vw;
+  width: 90vw;
+}
+.secondHeader .secondHeader__Link {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 5px 2vw;
+  cursor: pointer;
+  position: relative;
+  min-width: 100px;
+  display: inline-block;
+  width: fit-content;
+}
+.secondHeader .secondHeader__Link:hover {
+  text-decoration: underline;
+}
+.secondHeader .secondHeader__Link .secondHeader__LinkList {
+  position: absolute;
+  top: 30px !important;
+  background-color: #015b51;
+  padding: 0 1vw;
+  min-width: 180px;
+  z-index: 2;
+}
+.secondHeader .secondHeader__Link .secondHeader__LinkList .secondHeader__LinkItem {
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+}
+.secondHeader .secondHeader__Link .secondHeader__LinkList .secondHeader__LinkItem .secondHeader__LinkText {
+  margin-left: 2vw;
+}
+
+.sh__line2 {
+  padding: 1vh 5vw 2vh 5vw;
+}
+
+.locationHeader {
+  background-color: white;
+  height: 45px;
+  padding-left: 10vw;
+}
+.locationHeader .locationHeader__text {
+  color: #7F8C8D;
+  font-size: 18px;
+}
+
+@media (max-width: 667px) {
+  .profileOverView__titleText, .emergencyContactInfo .emergencyContactInfo__title .emergencyContactInfo__titleLeft .emergencyContactInfo__titleText {
+    font-size: 16px;
+  }
+
+  .profileOverView__content, .emergencyContactInfo .emergencyContactInfo__content {
+    flex-direction: column !important;
+  }
+
+  .profileOverView__picDiv {
+    margin-right: auto;
+    width: 100%;
+    margin-left: 20%;
+  }
+
+  .profileOverView__info {
+    width: 100% !important;
+  }
+}
+.profileOverView, .emergencyContactInfo {
+  padding: 1.5vw;
+}
+.profileOverView .profileOverView__title, .emergencyContactInfo .profileOverView__title, .emergencyContactInfo .emergencyContactInfo__title {
+  margin-left: 1vw;
+  color: #07ABA0;
+  justify-content: space-between;
+  border-bottom: 1px solid #ECF0F1;
+}
+.profileOverView .profileOverView__title .profileOverView__titleLeft .profileOverView__titleText, .emergencyContactInfo .profileOverView__title .profileOverView__titleLeft .profileOverView__titleText, .emergencyContactInfo .emergencyContactInfo__title .profileOverView__titleLeft .profileOverView__titleText, .emergencyContactInfo .emergencyContactInfo__title .emergencyContactInfo__titleLeft .profileOverView__titleText, .emergencyContactInfo .emergencyContactInfo__title .emergencyContactInfo__titleLeft .emergencyContactInfo__titleText {
+  margin-left: 2vw;
+  color: #07ABA0;
+}
+.profileOverView .profileOverView__title .profileOverView__btnExpand, .emergencyContactInfo .profileOverView__title .profileOverView__btnExpand, .emergencyContactInfo .emergencyContactInfo__title .profileOverView__btnExpand, .emergencyContactInfo .emergencyContactInfo__title .emergencyContactInfo__btnExpand {
+  float: right;
+  position: relative;
+  top: 3px;
+  cursor: pointer;
+  z-index: 1;
+}
+.profileOverView .profileOverView__content, .emergencyContactInfo .profileOverView__content, .emergencyContactInfo .emergencyContactInfo__content {
+  margin-top: 5px;
+}
+.profileOverView .profileOverView__content .profileOverView__picDiv, .emergencyContactInfo .profileOverView__content .profileOverView__picDiv, .emergencyContactInfo .emergencyContactInfo__content .profileOverView__picDiv {
+  width: 25%;
+}
+.profileOverView .profileOverView__content .profileOverView__picDiv .profileOverView__pic, .emergencyContactInfo .profileOverView__content .profileOverView__picDiv .profileOverView__pic, .emergencyContactInfo .emergencyContactInfo__content .profileOverView__picDiv .profileOverView__pic {
+  width: 94%;
+  padding: 3%;
+  border: 1px solid #ECF0F1;
+}
+.profileOverView .profileOverView__content .profileOverView__info, .emergencyContactInfo .profileOverView__content .profileOverView__info, .emergencyContactInfo .emergencyContactInfo__content .profileOverView__info {
+  margin: 5px 5px 3px 1vw;
+  width: 75%;
+}
+.profileOverView .profileOverView__content .profileOverView__info .profileOverView__name, .emergencyContactInfo .profileOverView__content .profileOverView__info .profileOverView__name, .emergencyContactInfo .emergencyContactInfo__content .profileOverView__info .profileOverView__name {
+  margin: 3px 0;
+  font-size: 14px;
+  font-weight: 600;
+}
+.profileOverView .profileOverView__content .profileOverView__info .profileOverView__pk, .emergencyContactInfo .profileOverView__content .profileOverView__info .profileOverView__pk, .emergencyContactInfo .emergencyContactInfo__content .profileOverView__info .profileOverView__pk {
+  margin: 3px 0;
+  font-size: 14px;
+  font-weight: 600;
+}
+.profileOverView .profileOverView__content .profileOverView__info .profileOverView__gender, .emergencyContactInfo .profileOverView__content .profileOverView__info .profileOverView__gender, .emergencyContactInfo .emergencyContactInfo__content .profileOverView__info .profileOverView__gender {
+  margin: 7px 0 3px 0;
+  font-size: 14px;
+}
+.profileOverView .profileOverView__content .profileOverView__info .profileOverView__position, .emergencyContactInfo .profileOverView__content .profileOverView__info .profileOverView__position, .emergencyContactInfo .emergencyContactInfo__content .profileOverView__info .profileOverView__position {
+  margin: 3px 0;
+  font-size: 14px;
+}
+.profileOverView .profileOverView__content .profileOverView__info .profileOverView__email, .emergencyContactInfo .profileOverView__content .profileOverView__info .profileOverView__email, .emergencyContactInfo .emergencyContactInfo__content .profileOverView__info .profileOverView__email {
+  margin: 3px 0;
+  font-size: 14px;
+}
+.profileOverView .profileOverView__content .profileOverView__info .profileOverView__joinDate, .emergencyContactInfo .profileOverView__content .profileOverView__info .profileOverView__joinDate, .emergencyContactInfo .emergencyContactInfo__content .profileOverView__info .profileOverView__joinDate {
+  margin: 7px 0 3px 0;
+  font-size: 14px;
+}
+.profileOverView .profileOverView__content .profileOverView__info .profileOverView__joinDate .profileOverView__joinDateStarter, .emergencyContactInfo .profileOverView__content .profileOverView__info .profileOverView__joinDate .profileOverView__joinDateStarter, .emergencyContactInfo .emergencyContactInfo__content .profileOverView__info .profileOverView__joinDate .profileOverView__joinDateStarter {
+  font-weight: 600;
+}
+.profileOverView .profileOverView__content .profileOverView__info .profileOverView__birthDate, .emergencyContactInfo .profileOverView__content .profileOverView__info .profileOverView__birthDate, .emergencyContactInfo .emergencyContactInfo__content .profileOverView__info .profileOverView__birthDate {
+  margin: 3px 0;
+  font-size: 14px;
+}
+.profileOverView .profileOverView__content .profileOverView__info .profileOverView__birthDate .profileOverView__birthDateStarter, .emergencyContactInfo .profileOverView__content .profileOverView__info .profileOverView__birthDate .profileOverView__birthDateStarter, .emergencyContactInfo .emergencyContactInfo__content .profileOverView__info .profileOverView__birthDate .profileOverView__birthDateStarter {
+  font-weight: 600;
+}
+.profileOverView .profileOverView__spacer, .emergencyContactInfo .profileOverView__spacer {
+  height: 0;
+  background-color: white;
+}
+
+@media (max-width: 667px) {
+  .emergencyContactInfo__td {
+    font-size: 0.65em !important;
+  }
+}
+.emergencyContactInfo .emergencyContactInfo__title {
+  color: orange;
+}
+.emergencyContactInfo .emergencyContactInfo__title .emergencyContactInfo__titleLeft .emergencyContactInfo__titleText {
+  color: orange;
+}
+.emergencyContactInfo .emergencyContactInfo__content {
+  display: flex;
+  flex-direction: column;
+}
+.emergencyContactInfo .emergencyContactInfo__content .emergencyContactInfo__contentTable {
+  width: 100%;
+  border-spacing: 0.9vw;
+  font-size: 14px;
+}
+.emergencyContactInfo .emergencyContactInfo__content .emergencyContactInfo__contentTable .emergencyContactInfo__td {
+  padding: auto;
+  text-align: center;
+  font-size: 0.95em;
+}
+.emergencyContactInfo .emergencyContactInfo__content .emergencyContactInfo__contentTable .eCHead {
+  font-weight: 600;
+}
+
+.emergencyContactInfo__contentInputs {
+  margin: 10px 0;
+}
+.emergencyContactInfo__contentInputs .emergencyContactInfo__Line {
+  width: 100%;
+}
+.emergencyContactInfo__contentInputs .emergencyContactInfo__Line .emergencyContactInfo__title {
+  color: black !important;
+  font-weight: 600;
+  border-bottom: 0px solid white;
+  text-align: left;
+  width: 50%;
+  margin: 10px;
+}
+.emergencyContactInfo__contentInputs .emergencyContactInfo__Line .emergencyContactInfo__input {
+  height: 20px;
+}
+
+@media (max-width: 667px) {
+  .payrollDetails__personalDetails {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    float: left !important;
+  }
+
+  .payrollDetails__personalDetail {
+    font-size: 11px !important;
+    float: left !important;
+    margin: 1vh 0;
+  }
+
+  .submit {
+    margin-left: 75px !important;
+  }
+
+  .pd__Dates {
+    margin-right: 15px !important;
+  }
+
+  .ps__mobileHidden {
+    display: none;
+  }
+
+  .payrollSlips__td {
+    font-size: 0.85em !important;
+  }
+}
+.payrollDetails .payrollDetails__personalDetails {
+  justify-content: space-between;
+  padding: 1vh 3vw;
+}
+.payrollDetails .payrollDetails__personalDetails .payrollDetails__personalDetail {
+  font-size: 15px;
+}
+.payrollDetails .payrollDetails__personalDetails .payrollDetails__personalDetail .payrollDetails__detailTitle {
+  font-size: 1em;
+}
+.payrollDetails .payrollDetails__personalDetails .payrollDetails__personalDetail .payrollDetails__detailText {
+  background-color: #07ABA0;
+  padding: 2px 3px;
+  border: 1px solid #7F8C8D;
+  color: white;
+  margin-left: 1vw;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.submit {
+  padding: 5px 8px !important;
+  background-color: #07ABA0;
+  font-size: 1em;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-right: 2vw;
+  cursor: pointer;
+  font-size: 1.25em !important;
+}
+.submit:hover {
+  background-color: #37DBD0 !important;
+}
+
+.payrollSlips {
+  margin-top: 15px;
+}
+.payrollSlips .payrollSlips__table {
+  width: 100%;
+  border-spacing: 2vw 5px;
+  font-size: 14px;
+}
+.payrollSlips .payrollSlips__table .payrollSlips__thead {
+  margin-bottom: 2vh;
+}
+.payrollSlips .payrollSlips__table .payrollSlips__tbody {
+  margin-top: 10px;
+}
+.payrollSlips .payrollSlips__table .payrollSlips__td {
+  padding: auto;
+  font-size: 1.05em;
+  padding: 2px 4px;
+}
+.payrollSlips .payrollSlips__table .pdHead {
+  font-weight: 600;
+}
+.payrollSlips .payrollSlips__table .ps__viewBtn {
+  background-color: #07ABA0;
+  color: white;
+  cursor: pointer;
+  border: 1px solid #BDC3C7;
+  width: 60%;
+  min-width: 50px;
+  height: 100%;
+  padding: 2px 8px;
+  text-decoration: none;
+}
+.payrollSlips .payrollSlips__table .ps__viewBtn:hover {
+  background-color: #37DBD0;
+  text-align: center;
+}
+
+@media (max-width: 667px) {
+  .leaveComponent {
+    font-size: 14px;
+  }
+}
+.leaveComponent {
+  margin: 1vh auto 1vh 1vw;
+  background-image: linear-gradient(90deg, #b7f8f4, #37DBD0);
+  padding: 1vh 3vw;
+  border-radius: 30px;
+  width: fit-content;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.leaveComponent .leaveC__left {
+  display: inline-block;
+  width: 45%;
+  min-width: 300px;
+  vertical-align: top;
+}
+.leaveComponent .leaveC__right {
+  display: inline-block;
+  width: 45%;
+  min-width: 300px;
+  vertical-align: top;
+}
+.leaveComponent .leaveC__line {
+  margin: 5px 0;
+}
+.leaveComponent .leaveC__line .leaveC__title {
+  margin: 0;
+  margin-right: 5px;
+  width: 45%;
+  font-weight: 600;
+}
+.leaveComponent .leaveC__line .leaveC__text {
+  margin: 0;
+  margin-left: 5px;
+  width: 40%;
+}
+
+.c {
+  width: fit-content;
+}
+
+.linkToLeave {
+  text-decoration: none;
+  color: black;
+}
+
+.shiftReport {
+  background-color: white;
+  margin: 5px 10px;
+  padding: 5px 1vw;
+  border-radius: 10px;
+}
+.shiftReport .shiftReport__detail {
+  display: inline-block;
+  margin-right: 1vw;
+}
+.shiftReport .shiftReport__detail .shiftReport__detailTitle {
+  font-weight: 600;
+  margin-right: 1vw;
+}
+@media (max-width: 667px) {
+  .notImportant {
+    display: none !important;
+  }
+
+  .monthlyReport__tableCol {
+    font-size: 14px;
+  }
+}
+.monthlyReport {
+  margin-bottom: 15px;
+}
+.monthlyReport .monthlyReport__table {
+  width: 100%;
+  margin-top: 20px;
+}
+.monthlyReport .monthlyReport__table .monthlyReport__tableCol {
+  display: inline;
+  vertical-align: top;
+}
+.monthlyReport .monthlyReport__table .monthlyReport__tableCol .monthlyReport__tableColTop {
+  font-weight: 600;
+  background-color: #015b51;
+  color: white;
+  padding: 15px 0.25vw;
+  text-align: center;
+  border: 1px solid black;
+  height: 70px;
+  text-align: center;
+}
+.monthlyReport .monthlyReport__table .monthlyReport__tableCol .monthlyReport__tableColBottom {
+  text-align: center;
+  border: 1px solid black;
+  padding: 0.25vw;
+  height: 30px;
+  vertical-align: bottom;
+}
+
+.pharmacyReport {
+  margin: 1vh auto 1vh 1vw;
+  background-image: linear-gradient(90deg, #b7f8f4, #37DBD0);
+  padding: 1vh 3vw;
+  border-radius: 20px;
+  width: fit-content;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.pharmacyReport .pharmacyReport__pharmacyContainer .pharmacyReport__pharmacyContainerTitle {
+  font-weight: 700;
+  text-decoration: underline;
+}
+.pharmacyReport .pharmacyReport__pharmacyContainer .pharmacyReport__totalContainer {
+  background-color: white;
+  margin: 5px 10px;
+  padding: 5px 1vw;
+  border-radius: 10px;
+}
+.pharmacyReport .pharmacyReport__pharmacyContainer .pharmacyReport__totalContainer .pharmacyReport__totalContainerTitle {
+  font-weight: 600;
+  margin-right: 1vw;
+}
+.errorBox {
+  background-color: pink;
+  width: 70vw;
+  margin: 1vh 10vw;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid red;
+}
+
+.errorBox__message {
+  margin: 3px;
+  margin-left: 10px;
+}
+
+@media (max-width: 667px) {
+  .login .login__logoPic {
+    width: 200px;
+  }
+
+  .loginBox__Msg {
+    font-size: 9px !important;
+  }
+}
+@media (min-width: 668px) {
+  .login .login__logoPic {
+    width: 250px;
+  }
+}
+body {
+  background-color: #ECF0F1;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  width: 90vw;
+  height: 100vh;
+  padding: 0 5vw;
+}
+.login .login__logo {
+  margin: 40px auto;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.login .login__logo .login__logoPic {
+  background-color: #ECF0F1;
+  height: 100%;
+  object-fit: contain;
+}
+.login .loginBox {
+  padding: 0 5vw;
+  width: 80vw;
+  max-width: 250px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+}
+.login .loginBox .loginBox__text {
+  color: #7F8C8D;
+}
+.login .loginBox .loginBox__input {
+  margin-left: 3px;
+  width: 90%;
+  height: 30px;
+  margin: 5px 0 5px 3px;
+  padding: 1px 3px;
+  font-size: 14px;
+}
+.login .loginBox .loginBox__input:focus {
+  border: 2px solid #07ABA0;
+}
+.login .loginBox .loginBox__buttons {
+  display: flex;
+  flex-grow: row;
+  align-items: center;
+  padding: 20px 2px 0 2px;
+  margin-bottom: 10px;
+}
+.login .loginBox .loginBox__buttons .loginBox__loginSubmit {
+  padding: 7px 12px;
+  color: white;
+  background-color: #07ABA0;
+  border: none;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+}
+.login .loginBox .loginBox__buttons .loginBox__loginSubmit:hover {
+  background-color: #37DBD0;
+}
+.login .loginBox .loginBox__buttons .loginBox__passwordResetLink {
+  text-decoration: none;
+}
+.login .loginBox .loginBox__buttons .loginBox__passwordResetLink:hover {
+  text-decoration: underline;
+  color: #37DBD0;
+}
+.login .loginBox .loginBox__buttons .loginBox__passwordResetLink .loginBox__passwordReset {
+  font-size: 14px;
+  margin-left: 10px;
+  color: #07ABA0;
+  font-weight: 500;
+  text-decoration: none;
+}
+.login .loginBox .loginBox__buttons .loginBox__passwordResetLink .loginBox__passwordReset:hover {
+  color: #37DBD0;
+}
+
+.loginBox__buttonsInside {
+  position: relative;
+  top: 13px;
+  margin-left: 25px;
+}
+.loginBox__buttonsInside .loginBox__Msg {
+  margin: 0 !important;
+}
+
+.loginBox__Msg {
+  font-size: 12px;
+  text-align: center;
+  color: red;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 667px) {
+  .homeContainer__firstResponsive {
+    margin: 0 1vw !important;
+  }
+}
+@media (min-width: 668px) {
+  .homeContainer__ResponsiveComponent {
+    min-width: 500px !important;
+  }
+}
+.home .homeContainer__firstResponsive {
+  margin: 0 3vw;
+  float: left;
+  margin-top: 15px;
+  align-items: flex-start;
+}
+.home .homeContainer__firstResponsive .homeContainer__ResponsiveComponent {
+  background-color: white;
+  display: inline-block;
+  vertical-align: top;
+  float: left;
+  width: 44%;
+  min-width: 355px;
+  margin: 15px 3%;
+}
+
+@media (max-width: 667px) {
+  .vaccine__container {
+    min-width: 400px !important;
+    font-size: 13px;
+  }
+}
+.vaccine .vaccine__container {
+  padding: 1.5vw;
+  background-color: white;
+  width: 60vw;
+  min-width: 500px;
+  margin: 15px auto;
+}
+.vaccine .vaccine__container .vaccine__title {
+  margin-left: 1vw;
+  color: #07ABA0;
+  justify-content: space-between;
+  border-bottom: 1px solid #ECF0F1;
+}
+.vaccine .vaccine__container .vaccine__title .vaccine__titleLeft .vaccine__titleText {
+  margin-left: 2vw;
+  color: #07ABA0;
+}
+.vaccine .vaccine__container .vaccine__title .vaccine__btnExpand {
+  float: right;
+  position: relative;
+  top: 3px;
+  cursor: pointer;
+  z-index: 1;
+}
+.vaccine .vaccine__container .vaccine__details {
+  margin-top: 15px;
+}
+.vaccine .vaccine__container .vaccine__details .vaccine__detail {
+  align-items: center;
+}
+.vaccine .vaccine__container .vaccine__details .vaccine__detail .vaccine__detailTitle {
+  width: 30%;
+  min-width: 200px;
+  font-weight: 600;
+}
+.vaccine .vaccine__container .vaccine__details .vaccine__detail .vaccine__detailInput {
+  font-size: 13px;
+  width: auto;
+  margin-right: 7px;
+  background-color: #07ABA0;
+  padding: 2px 3px;
+  border: 1px solid #7F8C8D;
+  color: white;
+  margin-left: 1vw;
+  font-weight: 600;
+}
+.vaccine .vaccine__container .vaccine__details .vaccine__detail .vaccine__DatePicker {
+  background-color: white;
+  width: auto;
+  margin-right: 7px;
+  padding: 2px 3px;
+  color: white;
+  margin-left: 1vw;
+}
+.vaccine .vaccine__container .vaccine__details .vaccine__detail .vaccine__detailSelector {
+  width: auto;
+  margin: 5px 7px 5px 1vw;
+  padding: 2px 3px;
+  color: black;
+}
+.vaccine .vaccine__container .vaccine__details .vaccine__detail .vaccine__checkBox {
+  width: 20px;
+  height: 20px;
+  margin-top: 5px;
+  margin-left: 1vw;
+  margin-right: 7px;
+  padding: 3px;
+}
+.vaccine .vaccine__container .vaccine__details .red {
+  color: red;
+}
+.vaccine .vaccine__container .vaccine__submit {
+  margin: 10px auto;
+  width: 20%;
+}
+.vaccine .vaccine__container .vaccine__submit .vaccine__submitBtn {
+  width: 90px;
+  height: 30px;
+  background-color: #07ABA0;
+  margin: auto;
+  color: white;
+  font-size: 1em;
+  font-weight: 600;
+  border: none;
+}
+.vaccine .vaccine__container .vaccine__submit .vaccine__submitBtn:hover {
+  background-color: #37DBD0;
+}
+
+@media (max-width: 667px) {
+  .profileContainer__details {
+    max-width: 400px !important;
+    font-size: 12px;
+    margin: 20px auto !important;
+  }
+
+  .profileDetails__tabs {
+    width: fit-content !important;
+  }
+
+  .profileDetails__tab {
+    margin-right: 3vw;
+  }
+
+  .profileContainer__imageDiv {
+    margin: 0 auto;
+  }
+}
+.profileContainer {
+  width: 90vw;
+  margin: 30px auto;
+  font-size: 16px;
+}
+.profileContainer .profileContainer__imageDiv {
+  width: 300px !important;
+  background-color: white;
+  height: fit-content;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  display: inline-block;
+  vertical-align: top !important;
+}
+.profileContainer .profileContainer__imageDiv .profileContainer__image {
+  width: 60%;
+  margin: 20px 20%;
+  border-radius: 100%;
+}
+.profileContainer .profileContainer__imageDiv .profileContainer__name {
+  text-align: center;
+  font-size: 1.4em;
+  color: #7F8C8D;
+}
+.profileContainer .profileContainer__imageDiv .profileContainer__position {
+  text-align: center;
+  font-size: 1em;
+  color: #BDC3C7;
+}
+.profileContainer .profileContainer__details {
+  width: 700px !important;
+  margin-left: 20px;
+  background-color: white;
+  padding: 20px;
+  height: fit-content;
+  display: inline-block;
+  vertical-align: top;
+}
+.profileContainer .profileContainer__details .profileDetails__title {
+  border-bottom: 2px solid #ECF0F1;
+  justify-content: space-between;
+  padding: 0 1vw;
+}
+.profileContainer .profileContainer__details .profileDetails__title .profileDetails__titleLeft {
+  color: #07ABA0;
+}
+.profileContainer .profileContainer__details .profileDetails__title .profileDetails__titleLeft .profileDetails__titleText {
+  margin-left: 1vw;
+}
+.profileContainer .profileContainer__details .profileDetails__title .profileDetails__tabs {
+  width: 30%;
+  min-width: 100px;
+  max-width: 250px;
+  justify-content: space-between;
+}
+.profileContainer .profileContainer__details .profileDetails__title .profileDetails__tabs .profileDetails__tab {
+  font-weight: 700;
+  color: #7F8C8D;
+  cursor: pointer;
+}
+.profileContainer .profileContainer__details .profileDetails__title .profileDetails__tabs .activeTab {
+  color: black;
+  border-bottom: 3px solid #07ABA0;
+  padding-bottom: 10px;
+}
+.profileContainer .profileContainer__details .profileDetails__personalInfo {
+  margin-top: 20px;
+}
+.profileContainer .profileContainer__details .profileDetails__personalInfo .profileDetails__personalInfoTitle {
+  font-weight: 600;
+  background-color: #ECF0F1;
+  padding: 10px 1vw;
+  font-size: 1.2em;
+}
+.profileContainer .profileContainer__details .profileDetails__personalInfo .profileDetails__personalInfoBody {
+  margin-top: 20px;
+}
+.profileContainer .profileContainer__details .profileDetails__personalInfo .profileDetails__personalInfoBody .profileDetails__personalInfoDetail .profileDetails__personalInfoText {
+  font-weight: 600;
+  width: 30%;
+}
+.profileContainer .profileContainer__details .profileDetails__personalInfo .profileDetails__personalInfoBody .profileDetails__personalInfoDetail .profileDetails__personalInfoData {
+  width: auto;
+}
+
+@media (max-width: 667px) {
+  .payrollHistory__container {
+    min-width: 400px !important;
+  }
+}
+.payrollHistory__container {
+  width: 70vw;
+  min-width: 800px;
+  margin: 20px auto;
+  background-color: white;
+  padding: 10px;
+}
+.payrollHistory__container .payrollHistory__title {
+  margin-left: 2vw;
+  margin-right: 2vw;
+  color: #07ABA0;
+  justify-content: space-between;
+  border-bottom: 1px solid #ECF0F1;
+}
+.payrollHistory__container .payrollHistory__title .payrollHistory__titleLeft .payrollHistory__titleText {
+  margin-left: 2vw;
+  color: #07ABA0;
+}
+.payrollHistory__container .payrollHistory__title .payrollHistory__btnExpand {
+  float: right;
+  position: relative;
+  top: 3px;
+  cursor: pointer;
+  z-index: 1;
+}
+.payrollHistory__container .payrollHistory__info {
+  margin-top: 10px;
+}
+
+@media (max-width: 667px) {
+  .leaveRequest__bodyContainer {
+    flex-direction: column !important;
+  }
+
+  .leaveRequest__bodyLeft {
+    width: 100% !important;
+    font-size: 0.85em;
+  }
+
+  .leaveRequest__bodyRight {
+    width: 100% !important;
+    font-size: 0.85em;
+  }
+
+  .lr__name {
+    font-size: 10px !important;
+  }
+
+  .lr__comment {
+    margin-top: 25px;
+  }
+}
+.leaveRequest__bodyContainer {
+  padding: 15px 0.5vw;
+}
+.leaveRequest__bodyContainer .leaveRequest__bodyLeft {
+  width: 50%;
+}
+.leaveRequest__bodyContainer .leaveRequest__bodyLeft {
+  width: 50%;
+  padding: 0 0.5vw;
+}
+.leaveRequest__bodyContainer .leaveRequest__bodyRight {
+  width: 47%;
+  padding: 0 0.5vw;
+}
+.leaveRequest__bodyContainer .leaveRequest__Line {
+  align-items: center;
+}
+.leaveRequest__bodyContainer .lr__title {
+  width: 50%;
+  min-width: 200px;
+  font-weight: 600;
+}
+.leaveRequest__bodyContainer .lr__title .red {
+  color: red;
+}
+.leaveRequest__bodyContainer .lr__detail {
+  width: 53%;
+  overflow: hidden;
+}
+.leaveRequest__bodyContainer .lr__name {
+  font-size: 13px;
+  width: auto;
+  margin-right: 7px;
+  height: 15px;
+}
+.leaveRequest__bodyContainer .lr__pk {
+  font-size: 13px;
+  width: 70px;
+  height: 20px;
+}
+.leaveRequest__bodyContainer .lr__leaveFactor {
+  height: 15px;
+}
+.leaveRequest__bodyContainer .lr__longQu {
+  min-width: 220px;
+}
+.leaveRequest__bodyContainer .lr__selector {
+  height: 25px;
+}
+.leaveRequest__bodyContainer .lr__leaveFactor {
+  height: 20px;
+}
+.leaveRequest__bodyContainer .lr__numDays {
+  background-color: #ECF0F1;
+  width: 50px;
+  border: 1px solid black;
+  float: left;
+}
+.leaveRequest__bodyContainer .lr__comment {
+  height: 80px;
+  width: 100%;
+}
+.leaveRequest__bodyContainer .lr__checkBox {
+  width: 40px;
+  height: 20px;
+  margin-left: 10px;
+}
+.leaveRequest__bodyContainer .lr__error {
+  font-size: 10px;
+  color: red;
+  margin-left: 10px;
+}
+
+.leaveRequest__submitBtnDiv {
+  width: 100px;
+  margin: 10px auto;
+}
+.leaveRequest__submitBtnDiv .leaveRequest__submitBtn {
+  background-color: #07ABA0;
+  border: 1px solid #7F8C8D;
+  padding: 5px 10px;
+  font-weight: 600;
+  font-size: 16px;
+  color: white;
+}
+.leaveRequest__submitBtnDiv .leaveRequest__submitBtn:hover {
+  background-color: #37DBD0;
+}
+
+.leavePage__btnSubmit {
+  margin: 5px 30%;
+  padding: 5px 8px;
+  width: 160px;
+  background-color: #07ABA0;
+  color: white;
+  font-weight: 600;
+  font-size: 1em;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+.leavePage__btnSubmit:hover {
+  background-color: #37DBD0;
+}
+
+@media (max-width: 667px) {
+  .slipPage {
+    font-size: 13px;
+  }
+
+  .slipPage__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .slipPage__headerLogo {
+    margin: 5px auto !important;
+  }
+
+  .slipPage__headerTexts {
+    margin: 5px auto;
+    width: 80%;
+  }
+
+  .slipPage__headerText {
+    text-align: center !important;
+  }
+}
+.slipPage .slipPage__centeredContainer {
+  margin: 10px auto;
+  width: 90vw;
+  min-width: 380px;
+  max-width: 900px;
+  background-color: white;
+  padding: 35px 2%;
+}
+.slipPage .slipPage__centeredContainer .slipPage__header {
+  vertical-align: top;
+}
+.slipPage .slipPage__centeredContainer .slipPage__header .slipPage__headerLogo {
+  display: inline-block;
+  vertical-align: top;
+  width: 30vw;
+  min-width: 150px;
+  max-width: 200px;
+  object-fit: contain;
+  margin-right: 20vw;
+}
+.slipPage .slipPage__centeredContainer .slipPage__header .slipPage__headerTexts {
+  display: inline-block;
+  vertical-align: top;
+  align-items: left;
+  margin-left: 0 1vw auto 0;
+  float: right;
+}
+.slipPage .slipPage__centeredContainer .slipPage__header .slipPage__headerTexts .slipPage__headerText {
+  margin: 0;
+  text-align: left;
+}
+.slipPage .slipPage__centeredContainer .slipPage__titleDiv {
+  width: 90%;
+  margin: 25px auto 5px auto;
+}
+.slipPage .slipPage__centeredContainer .slipPage__titleDiv .slipPage__title {
+  text-align: center;
+  margin: 2px auto;
+}
+.slipPage .slipPage__centeredContainer .slipPage__bodyContainer {
+  margin: 20px 0;
+}
+.slipPage .slipPage__centeredContainer .slipPage__bodyContainer .slipPage__containerTop {
+  background-color: #37DBD0;
+  height: 36px;
+  border-radius: 20px 20px 0 0;
+  padding: 0 5% !important;
+}
+.slipPage .slipPage__centeredContainer .slipPage__bodyContainer .slipPage__containerBottom {
+  background-color: #ECF0F1;
+  border-radius: 0 0 20px 20px;
+  margin: 0;
+  min-height: 20px;
+  padding: 10px 3% !important;
+}
+.slipPage .slipPage__centeredContainer .slipPage__bodyContainer .slipPage__containerBottom .spcb__leftDiv {
+  width: 360px;
+  display: inline-block;
+}
+.slipPage .slipPage__centeredContainer .slipPage__bodyContainer .slipPage__containerBottom .spcb__RightDiv {
+  width: 360px;
+  display: inline-block;
+}
+.slipPage .slipPage__centeredContainer .slipPage__bodyContainer .slipPage__containerBottom .spcb__line {
+  margin: 0;
+}
+.slipPage .slipPage__centeredContainer .slipPage__bodyContainer .slipPage__containerBottom .spcb__line .spcb__lineLeft {
+  font-weight: 600;
+  width: 40%;
+  margin: 3px 0;
+}
+.slipPage .slipPage__centeredContainer .slipPage__bodyContainer .slipPage__containerBottom .spcb__line .spcb__lineRight {
+  margin: 3px 0;
+}
+
+.spct__first {
+  justify-content: space-evenly;
+}
+
+.spct__second {
+  justify-content: space-between;
+}
+
+.spct__third {
+  justify-content: space-between;
+}
+
+.spcb__container .spcb__second__table {
+  width: 80%;
+  margin: 5px auto 5px 5%;
+  border-spacing: 8px;
+}
+.spcb__container .spcb__second__table .spcb__second__thead .pdHead {
+  font-weight: 600;
+  font-size: 1.1em;
+}
+.spcb__container .spcb__second__table .spcb__second__td {
+  margin-right: 2vw;
+}
+.spcb__container .spcb__remarksDiv {
+  padding-left: 5%;
+}
+.spcb__container .spcb__remarksDiv .spcb__remarksTitle {
+  font-weight: 600;
+  min-width: 20%;
+}
+.spcb__container .spcb__tableTitle {
+  padding-left: 6%;
+}
+
+.spct__smaller {
+  font-size: 0.8em;
+}
+
+.addDailyReport .adr__mainContent {
+  padding: 15px 0.5vw !important;
+}
+.addDailyReport .addDailyReport__line {
+  width: 80%;
+  max-width: 500px;
+  min-width: 350px;
+  margin: 10px 1vw;
+  align-items: center;
+}
+.addDailyReport .addDailyReport__line .addDailyReport__lineTitle {
+  font-weight: 600;
+  width: 36%;
+  margin-right: 7px;
+}
+.addDailyReport .addDailyReport__line .addDailyReport__lineData {
+  height: 20px;
+  width: 140px;
+}
+.addDailyReport .addDailyReport__line .adr__span {
+  background-color: #37DBD0;
+  width: 48px;
+  padding: 3px 5px;
+  border: 2px solid black;
+  font-weight: 500;
+}
+.addDailyReport .addDailyReport__line .adr__selector {
+  height: 30px;
+  font-size: 1.1em;
+  font-weight: 500;
+}
+.addDailyReport .addDailyReport__line .adr__remarks {
+  width: 62%;
+  height: 20px;
+}
+.addDailyReport .addDailyReport__divBtn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.notDeveloped {
+  background-color: white;
+  margin: 80px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 80%;
+  max-width: 350px;
+  font-weight: 700;
+  font-size: 26px;
+  border: 2px solid black;
+  padding: 20px 2vw;
+  color: #656565;
+}
+
+.dashHome {
+  background-color: white;
+  height: 65px;
+}
+
+.dashHome__mainHeader {
+  font-size: 1.8em;
+  font-weight: 700;
+  padding: 10px 2vw;
+  color: #07ABA0;
+}
+
+.pharmacyReportType {
+  vertical-align: bottom;
+}
+
+.pieReportDiv {
+  display: inline-block;
+  overflow: hidden;
+}
+
+@media (max-width: 667px) {
+  .login .login__logoPic {
+    width: 200px;
+  }
+
+  .loginBox__Msg {
+    font-size: 9px !important;
+  }
+}
+@media (min-width: 668px) {
+  .login .login__logoPic {
+    width: 250px;
+  }
+}
+body {
+  background-color: #ECF0F1;
+}
+
+.dashLogin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  width: 90vw;
+  height: 100vh;
+  padding: 0 5vw;
+}
+.dashLogin .login__logo {
+  margin: 40px auto;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  width: 70vw;
+  max-width: 180px;
+}
+.dashLogin .login__logo .login__logoPic {
+  background-color: #ECF0F1;
+  width: 100%;
+  object-fit: contain;
+}
+.dashLogin .loginBox {
+  padding: 0 5vw;
+  width: 80vw;
+  max-width: 250px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+}
+.dashLogin .loginBox .loginBox__text {
+  color: #7F8C8D;
+}
+.dashLogin .loginBox .loginBox__input {
+  margin-left: 3px;
+  width: 90%;
+  height: 30px;
+  margin: 5px 0 5px 3px;
+  padding: 1px 3px;
+  font-size: 14px;
+}
+.dashLogin .loginBox .loginBox__input:focus {
+  border: 2px solid #07ABA0;
+}
+.dashLogin .loginBox .loginBox__buttons {
+  display: flex;
+  flex-grow: row;
+  align-items: center;
+  padding: 20px 2px 0 2px;
+  margin-bottom: 10px;
+}
+.dashLogin .loginBox .loginBox__buttons .loginBox__loginSubmit {
+  padding: 7px 12px;
+  color: white;
+  background-color: #07ABA0;
+  border: none;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+}
+.dashLogin .loginBox .loginBox__buttons .loginBox__loginSubmit:hover {
+  background-color: #37DBD0;
+}
+.dashLogin .loginBox .loginBox__buttons .loginBox__passwordResetLink {
+  text-decoration: none;
+}
+.dashLogin .loginBox .loginBox__buttons .loginBox__passwordResetLink:hover {
+  text-decoration: underline;
+  color: #37DBD0;
+}
+.dashLogin .loginBox .loginBox__buttons .loginBox__passwordResetLink .loginBox__passwordReset {
+  font-size: 14px;
+  margin-left: 10px;
+  color: #07ABA0;
+  font-weight: 500;
+  text-decoration: none;
+}
+.dashLogin .loginBox .loginBox__buttons .loginBox__passwordResetLink .loginBox__passwordReset:hover {
+  color: #37DBD0;
+}
+
+.loginBox__buttonsInside {
+  position: relative;
+  top: 13px;
+  margin-left: 25px;
+}
+.loginBox__buttonsInside .loginBox__Msg {
+  margin: 0 !important;
+}
+
+.loginBox__Msg {
+  font-size: 12px;
+  text-align: center;
+  color: red;
+  margin-bottom: 10px;
+}
+
+.dashAddUser .dashAddUser__bodyLeft {
+  display: inline-block;
+  width: 35vw;
+  min-width: 400px;
+  max-width: 500px;
+  vertical-align: top;
+}
+.dashAddUser .dashAddUser__bodyRight {
+  display: inline-block;
+  width: 35vw;
+  min-width: 400px;
+  max-width: 500px;
+  vertical-align: top;
+}
+.dashAddUser .dashAddUser__line .dashAddUser__lineLeft {
+  width: 30%;
+  font-weight: 600;
+}
+.dashAddUser .dashAddUser__line .dashAddUser__lineRight {
+  height: 20px;
+}
+.dashAddUser .dashAddUser__btnDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.dashAddUser .dashAddUser__btnDiv .dashAddUser__Button {
+  padding: 7px 12px;
+  color: white;
+  background-color: #07ABA0;
+  border: none;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+}
+.dashAddUser .dashAddUser__btnDiv .dashAddUser__Button:hover {
+  background-color: #37DBD0;
+}
+.dashAddUser .dASLR__selector {
+  width: 160px;
+  height: 30px;
+}
+
+.accAllUsers__generalDetails {
+  font-size: 1.2em !important;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.accAllUsers__generalDetails .groupsGeneralDetails {
+  font-size: 28px !important;
+}
+
+.accAllUsers__smaller {
+  width: 70vw;
+}
+
+.wcfc__bodyDiv .accAllUsers__left {
+  width: 430px;
+  display: inline-block;
+  vertical-align: top;
+}
+.wcfc__bodyDiv .accAllUsers__right {
+  width: 430px;
+  display: inline-block;
+  vertical-align: top;
+}
+.wcfc__bodyDiv .accAllUsers__line {
+  margin: 0 !important;
+  padding: 0;
+}
+.wcfc__bodyDiv .accAllUsers__line .accAllUsers__lineTitle {
+  font-weight: 600;
+  width: 160px;
+  margin-right: 5px;
+}
+.wcfc__bodyDiv .accAllUsers__line .accAllUsers__lineDetail {
+  width: 100px;
+  height: 20px;
+}
+.wcfc__bodyDiv .accAllUsers__line .alu__selector {
+  width: fit-content;
+  min-width: 70px;
+  height: 30px;
+}
+.wcfc__bodyDiv .accAllUsers__line .alu__span {
+  margin-left: 10px;
+  text-align: center;
+}
+.wcfc__bodyDiv .accAllUsers__line .alu__remarks {
+  width: 60%;
+}
+.wcfc__bodyDiv .accAllUsers__btnDiv {
+  width: 20%;
+  margin: 15px auto 10px auto;
+}
+.wcfc__bodyDiv .accAllUsers__btnDiv .accAllUsers__buttonSubmit {
+  padding: 7px 12px;
+  color: white;
+  background-color: #07ABA0;
+  border: none;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+}
+.wcfc__bodyDiv .accAllUsers__btnDiv .accAllUsers__buttonSubmit:hover {
+  background-color: #37DBD0;
+}
+
+/*# sourceMappingURL=main.css.map */

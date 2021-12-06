@@ -1,0 +1,46 @@
+@media (max-width: 667px) {
+    .mainHeader{
+        justify-content: space-between !important;
+    }
+    .mainHeader__accountName{
+        max-width: 200px;
+        font-size: 14px !important;
+    }
+}
+
+@media (min-width: 668px) {}
+
+.mainHeader{
+    background-color: white;
+    flex: 1;
+    padding: 5px 5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    .mainHeader__logoDiv{
+        align-items: center;
+        margin-right: 10vw;
+        .mainHeader__logoImg{
+            width:150px;
+        }
+    }
+    .mainHeader__accountDiv{
+        display: flex;
+        flex-shrink: row;
+        justify-content: space-evenly;
+        align-items: center;
+        text-decoration: none;
+        &:hover{
+            text-decoration: underline;
+            text-decoration-color: $mediumShade ;
+        }
+        .mainHeader__accountIcon{
+            margin-right: 2vw;
+            color: $mainColor;
+        }
+        .mainHeader__accountName{
+            color: $darkShade;
+        }
+    }
+}

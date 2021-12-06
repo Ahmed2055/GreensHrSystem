@@ -1,0 +1,54 @@
+@media (max-width: 667px) {
+    .leaveComponent{
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 668px) {}
+
+.leaveComponent{
+    margin: 1vh auto 1vh 1vw  ;
+    background-image: linear-gradient(90deg, #b7f8f4, $mainColorLight);
+    padding: 1vh 3vw;
+    border-radius:30px ;
+    width: fit-content;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+    .leaveC__left{
+        display: inline-block;
+        width :45%;
+        min-width:300px ;
+        vertical-align: top;
+    }
+    .leaveC__right{
+        display: inline-block;
+        width :45%;
+        min-width:300px ;
+        vertical-align: top;
+    }
+    .leaveC__line{
+        @extend .flowRow ;
+        margin: 5px 0;
+        .leaveC__title{
+            margin:0 ;
+            margin-right:5px ;
+            width:45%;
+            font-weight:600;
+        }
+        .leaveC__text{
+            margin: 0 ;
+            margin-left:5px ;
+            width:40%;
+        }
+    }
+}
+
+.c{
+    width: fit-content;
+}
+
+
+.linkToLeave{
+    text-decoration: none;
+    color:black;
+}

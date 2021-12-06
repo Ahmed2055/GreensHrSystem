@@ -1,0 +1,14 @@
+@media (max-width: 667px) {}
+
+@media (min-width: 668px) {}
+
+.locationHeader{
+    background-color: white;
+    height:45px ;
+    padding-left: 10vw;
+    @extend .flowRow;
+    .locationHeader__text{
+        color: $darkShade;
+        font-size: 18px;
+    }
+}

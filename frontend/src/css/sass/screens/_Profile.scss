@@ -1,0 +1,111 @@
+@media (max-width: 667px) {
+    .profileContainer__details{
+        max-width: 400px !important;
+        font-size: 12px;
+        margin: 20px auto !important;
+    }
+    .profileDetails__tabs{
+        width: fit-content !important;
+    }
+    .profileDetails__tab{
+        margin-right: 3vw;
+    }
+    .profileContainer__imageDiv{
+        margin : 0 auto ;
+    }
+}
+
+
+
+.profileContainer{
+    width: 90vw ;
+    margin: 30px auto ;
+    font-size: 16px;
+    
+    .profileContainer__imageDiv{
+        width:300px !important ;
+        background-color: white;
+        height: fit-content;
+        padding: 10px;
+        margin-bottom:20px ;
+        margin-left:20px;
+        display: inline-block;
+        vertical-align: top !important;
+        .profileContainer__image{
+        width: 60%;
+        margin: 20px 20%;
+        border-radius: 100%;
+        }
+        .profileContainer__name{
+            text-align: center;
+            font-size: 1.4em;
+            color: $darkShade;
+        }
+        .profileContainer__position{
+            text-align: center;
+            font-size: 1em;
+            color: $mediumShade;
+        }
+    }
+    .profileContainer__details{
+        width:700px !important ;
+        margin-left: 20px;
+        background-color: white;
+        padding: 20px;
+        height: fit-content;
+        display: inline-block;
+        vertical-align: top;
+        .profileDetails__title{
+            @extend .flowRow;
+            border-bottom :2px solid $lightShade ;
+            justify-content: space-between ;
+            padding: 0 1vw ;
+            .profileDetails__titleLeft{
+                @extend .flowRow;
+                color: $mainColor ;
+                .profileDetails__titleText{
+                    margin-left: 1vw ;
+                }
+            }
+            .profileDetails__tabs{
+                @extend .flowRow;
+                width:30% ;
+                min-width: 100px;
+                max-width: 250px;
+                justify-content: space-between ;
+                .profileDetails__tab{
+                    font-weight: 700;
+                    color:$darkShade ;
+                    cursor: pointer;
+                }
+                .activeTab{
+                    color: black ;
+                    border-bottom: 3px solid $mainColor;
+                    padding-bottom:10px ;
+                }
+            }
+        }
+        .profileDetails__personalInfo{
+            margin-top: 20px;
+            .profileDetails__personalInfoTitle{
+                font-weight: 600;
+                background-color: $lightShade ;
+                padding :10px 1vw ;
+                font-size:1.2em;
+            }
+            .profileDetails__personalInfoBody{
+                margin-top: 20px;
+                .profileDetails__personalInfoDetail{
+                    @extend .flowRow;
+                    .profileDetails__personalInfoText{
+                        font-weight: 600;
+                        width:30% ;
+                    }
+                    .profileDetails__personalInfoData{
+                        width:auto;
+                    }
+                }
+            }
+        }
+    }
+}

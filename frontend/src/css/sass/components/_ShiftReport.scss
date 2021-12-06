@@ -1,0 +1,22 @@
+@media (max-width: 667px) {}
+
+@media (min-width: 668px) {}
+
+.shiftReport{
+    background-color:white;
+    margin: 5px 10px;
+    padding:5px 1vw;
+    border-radius: 10px;
+    .shiftReport__detail{
+        display: inline-block;
+        margin-right:1vw ;
+        
+        .shiftReport__detailTitle{
+            font-weight: 600;
+            margin-right:1vw ;
+        }
+        .shiftReport__detailText{
+
+        }
+    }
+}

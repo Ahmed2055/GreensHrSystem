@@ -1,0 +1,16 @@
+
+
+.leavePage__btnSubmit{
+    margin: 5px 30%;
+    padding: 5px 8px ;
+    width: 160px;
+    background-color: $mainColor;
+    color:white ;
+    font-weight:600 ;
+    font-size:1em;
+    border:none ;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    &:hover{
+        background-color: $mainColorLight;
+    }
+}

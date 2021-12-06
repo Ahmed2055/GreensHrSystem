@@ -1,0 +1,31 @@
+@media (max-width: 667px) {
+  .homeContainer__firstResponsive{
+    margin: 0 1vw !important;
+  }
+}
+
+@media (min-width: 668px) {
+    .homeContainer__ResponsiveComponent{
+        min-width: 500px !important;
+    }
+}
+
+.home{
+    
+    .homeContainer__firstResponsive {
+        margin: 0 3vw;
+        float: left;
+        margin-top: 15px;
+        align-items: flex-start;
+        .homeContainer__ResponsiveComponent {
+          background-color: white;
+          display: inline-block;
+          vertical-align: top;
+          float: left;
+          width: 44%;
+          min-width: 355px;
+          margin: 15px 3%;
+        }
+      }
+}
+

@@ -1,0 +1,48 @@
+@media (max-width: 667px) {}
+
+@media (min-width: 668px) {}
+
+.addDailyReport{
+    .adr__mainContent{
+        padding: 15px 0.5vw !important;
+    }
+    .addDailyReport__line{
+        width:80%;
+        max-width: 500px;
+        min-width: 350px;
+        margin: 10px 1vw ;
+        @extend .flowRow;
+        align-items: center;
+        .addDailyReport__lineTitle{
+            font-weight: 600;
+            width: 36% ;
+            margin-right: 7px;
+        }
+        .addDailyReport__lineData{
+            height: 20px;
+            width: 140px;
+        }
+        .adr__span{
+            background-color: $mainColorLight;
+            width: 48px ;
+            padding: 3px 5px;
+            border: 2px solid black ;
+            font-weight: 500;
+        }
+        .adr__selector{
+            height: 30px;
+            font-size: 1.1em;
+            font-weight: 500;
+        }
+        .adr__remarks{
+            width:62% ;
+            height: 20px;
+        }
+        
+    }
+    .addDailyReport__divBtn{
+         display: flex;
+         flex-direction: column;
+         align-items: center;   
+    }
+}

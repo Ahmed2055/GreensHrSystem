@@ -1,0 +1,101 @@
+@media (max-width: 667px) {
+  .profileOverView__titleText {
+    font-size: 16px;
+  }
+  .profileOverView__content{
+    flex-direction: column !important;
+  }
+  .profileOverView__picDiv{
+    margin-right: auto;
+    width: 100%;
+    margin-left: 20%;
+  }
+  .profileOverView__info{
+    width: 100% !important;
+  }
+}
+
+@media (min-width: 668px) {
+}
+
+.profileOverView {
+  padding: 1.5vw;
+  .profileOverView__title {
+    @extend .flowRow;
+    margin-left: 1vw;
+    color: $mainColor;
+    justify-content: space-between;
+    border-bottom: 1px solid $lightShade;
+    .profileOverView__titleLeft {
+      @extend .flowRow;
+      .profileOverView__titleText {
+        margin-left: 2vw;
+        color: $mainColor;
+      }
+    }
+    .profileOverView__btnExpand {
+      float: right; 
+      position: relative;
+      top: 3px;
+      cursor: pointer;
+      z-index: 1;
+    }
+  }
+  .profileOverView__content {
+    margin-top: 5px;
+    @extend .flowRow;
+    .profileOverView__picDiv {
+      width: 25%;
+      .profileOverView__pic {
+        width: 94%;
+        padding: 3%;
+        border: 1px solid $lightShade;
+      }
+    }
+    .profileOverView__info {
+      margin: 5px 5px 3px 1vw;
+      width: 75%;
+      .profileOverView__name {
+        margin: 3px 0;
+        font-size: 14px;
+        font-weight: 600;
+      }
+      .profileOverView__pk {
+        margin: 3px 0;
+        font-size: 14px;
+        font-weight: 600;
+      }
+      .profileOverView__gender {
+        margin: 7px 0 3px 0;
+        font-size: 14px;
+      }
+      .profileOverView__position {
+        margin: 3px 0;
+        font-size: 14px;
+      }
+      .profileOverView__email {
+        margin: 3px 0;
+        font-size: 14px;
+      }
+      .profileOverView__joinDate {
+        margin: 7px 0 3px 0;
+        font-size: 14px;
+        .profileOverView__joinDateStarter {
+            font-weight: 600;
+        }
+      }
+      .profileOverView__birthDate{
+        margin: 3px 0;
+        font-size: 14px;
+        .profileOverView__birthDateStarter{
+            font-weight: 600;
+        }
+      }
+    }
+  }
+  .profileOverView__spacer{
+    height: 0;
+    background-color: white;
+  }
+}
+

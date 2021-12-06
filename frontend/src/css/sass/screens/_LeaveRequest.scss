@@ -1,0 +1,115 @@
+@media (max-width: 667px) {
+  .leaveRequest__bodyContainer {
+    flex-direction: column !important;
+  }
+  .leaveRequest__bodyLeft {
+    width: 100% !important;
+    font-size: 0.85em;
+  }
+  .leaveRequest__bodyRight {
+    width: 100% !important;
+    font-size: 0.85em;
+  }
+  .lr__name{
+    font-size: 10px !important;
+  }
+  .lr__comment{
+    margin-top: 25px;
+  }
+}
+
+@media (min-width: 668px) {
+}
+
+.leaveRequest__bodyContainer {
+  @extend .flowRow;
+  padding: 15px 0.5vw;
+  .leaveRequest__bodyLeft{
+    width: 50%;
+  }
+  .leaveRequest__bodyLeft{
+    width: 50%;
+    padding: 0 0.5vw;
+  }
+  .leaveRequest__bodyRight{
+    width: 47%;
+    padding: 0 0.5vw;
+  }
+  .leaveRequest__Line{
+    @extend .flowRow;
+    align-items: center;
+  }
+  .lr__title{
+    width: 50%;
+    min-width: 200px;
+    font-weight: 600;
+    .red {
+      color: red;
+    }
+  }
+  .lr__detail {
+    width: 53%;
+    overflow: hidden;
+  }
+  .lr__name{
+      font-size: 13px;
+      width: auto;
+      margin-right: 7px;
+      height: 15px;
+  }
+  .lr__pk{
+      font-size: 13px;
+      width: 70px;
+      height: 20px;
+  }
+  .lr__leaveFactor{
+    height: 15px;
+  }
+  .lr__longQu{
+      min-width: 220px;
+  }
+  .lr__selector{
+    height: 25px;
+  }
+  .lr__leaveFactor{
+    height: 20px;
+  }
+  .lr__numDays{
+    background-color: $lightShade ;
+    width: 50px ;
+    border: 1px solid black ;
+    float: left ;
+  }
+  .lr__comment{
+    height: 80px;
+    width: 100%;
+  }
+  .lr__checkBox{
+    width:40px ;
+    height: 20px;
+    margin-left: 10px;
+  }
+  .lr__error{
+    font-size: 10px;
+    color: red;
+    margin-left: 10px;
+  }
+
+  
+}
+
+.leaveRequest__submitBtnDiv{
+  width:100px ;
+  margin:  10px auto;
+  .leaveRequest__submitBtn{
+    background-color: $mainColor;
+    border : 1px solid $darkShade ;
+    padding: 5px 10px ;
+    font-weight: 600 ;
+    font-size:16px ;
+    color: white ;
+    &:hover{
+      background-color: $mainColorLight;
+    }
+  }
+}

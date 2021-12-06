@@ -1,0 +1,41 @@
+@media (max-width: 667px) {
+    .notImportant{
+        display: none !important;
+    }
+    .monthlyReport__tableCol{
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 668px) {}
+
+.monthlyReport{
+    margin-bottom: 15px;
+    .monthlyReport__table{
+        width :100% ;
+        @extend .flowRow;
+        margin-top:20px ;
+        .monthlyReport__tableCol{
+            display: inline;
+            vertical-align: top;
+            .monthlyReport__tableColTop{
+                font-weight: 600;
+                background-color: $mainColorDark;
+                color:white;
+                padding: 15px 0.25vw;
+                text-align:center;
+                border:1px solid black ;
+                height:70px ;
+                text-align: center;
+                
+            }
+            .monthlyReport__tableColBottom{
+                text-align:center;
+                border:1px solid black ;
+                padding:0.25vw;
+                height:30px ;
+                vertical-align:bottom;
+            }
+        }
+    }
+}

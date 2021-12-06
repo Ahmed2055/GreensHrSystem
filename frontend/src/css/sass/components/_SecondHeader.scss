@@ -1,0 +1,67 @@
+@media (max-width: 667px) {
+  .secondHeader__Link {
+    font-size: 14px !important;
+    min-width:85px !important;
+  }
+}
+
+@media (min-width: 668px) {
+  .secondHeader__LinkList {
+    top: 42px !important;
+  }
+}
+
+@media (max-width: 473px) {
+    .secondHeader__shorterWidth {
+        left: -40px !important;
+        min-width: 115px !important;
+      }
+    .secondHeader__lessShorterWidth {
+        left: -30px !important;
+        min-width: 135px !important;
+      }
+}
+.secondHeader {
+  background-color: $mainColorDark;
+  flex-direction: row;
+  align-items: center;
+  height: fit-content;
+  padding: 2vh 5vw 2vh 5vw;
+  width: 90vw ;
+  .secondHeader__Link {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 5px 2vw;
+    cursor: pointer;
+    position: relative;
+    min-width:100px;
+    display: inline-block;
+    width: fit-content;
+    &:hover {
+      text-decoration: underline;
+    }
+    .secondHeader__LinkList {
+      position: absolute;
+      top: 30px !important;
+      background-color: $mainColorDark;
+      padding: 0 1vw;
+      min-width: 180px;
+      z-index: 2;
+      .secondHeader__LinkItem {
+        color: white;
+        text-decoration: none;
+        font-weight: 400;
+        @extend .flowRow;
+        .secondHeader__LinkText {
+          margin-left: 2vw;
+        }
+      }
+    }
+  }
+}
+
+.sh__line2{
+  padding: 1vh 5vw 2vh 5vw;
+}

@@ -1,0 +1,26 @@
+@media (max-width: 667px) {}
+
+@media (min-width: 668px) {}
+
+
+.dashHome{
+    background-color: white;
+    height: 65px;
+    
+}
+.dashHome__mainHeader{
+    font-size: 1.8em;
+    font-weight:700;
+    @extend .flowRow;
+    padding: 10px 2vw;
+    color: $mainColor;
+}
+
+.pharmacyReportType{
+    @extend .flowRow;
+    vertical-align: bottom;
+}
+.pieReportDiv{
+    display: inline-block;
+    overflow: hidden;
+}

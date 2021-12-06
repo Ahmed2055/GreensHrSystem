@@ -1,0 +1,151 @@
+@media (max-width: 667px) {
+    .pageCentered__body{
+        min-width: 400px !important;
+    }
+    .smallerOnMobile{
+        font-size: 0.8em;
+    }
+}
+
+@media (min-width: 668px) {}
+
+.pageCentered__body{
+    margin: 20px auto;
+    width: 80vw;
+    min-width: 700px;
+}
+
+.whiteCenteredFlexibleContainer{
+    padding: 2vh 3vw;
+    background-color: white;
+    margin: 10px auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    border-radius: 10px;
+    .wcfc__titleDiv{
+        justify-content: space-between;
+        @extend .flowRow;
+        padding: 0.5vh 1vw;
+        border-bottom: 1px solid $lightShade;
+        color: $mainColor ;
+        .wcfc__title{
+            @extend .flowRow;
+            .material-icons{
+                float: right;
+                font-size:1.5em !important;
+            }
+            .wcfc__titleText{
+                margin-left: 1vw;
+        
+            }
+        }
+        .wcfc__btnExpand{
+            cursor:pointer;
+        }
+    }
+    .wcfc__bodyDiv{
+
+    }
+}
+
+
+.red{
+    color: red !important;
+}
+.greenBackGround{
+    background-color: green !important;
+}
+.redBackGround{
+    background-color: red !important;
+}
+.green{
+    color: green !important;
+}
+
+.black{
+    color: black !important;
+}
+.yellow{
+    color: rgb(202, 202, 5) !important;
+}
+.darkBlue{
+    color: darkblue !important;
+}
+.darkGray{
+    color: $darkShade !important;
+}
+
+.hidden{
+    display: none;
+}
+
+.visible{
+    visibility: none;
+}
+
+.flowRow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.mainDarkColor{
+    color: $mainColorDark !important ;
+}
+
+.darkBtn{
+    background-color: $mainColorDark !important ;
+}
+
+.shadowedMargin{
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.normalWeight{
+    font-weight: 400 !important;
+}
+
+.bigger{
+    font-size: 1.2em;
+}
+.smaller{
+    font-size: 0.8em;
+}
+
+.pointer{
+    cursor: pointer !important;
+}
+
+.notUnderlined{
+    text-decoration: none;
+}
+
+.wcfc__btnSubmit {
+    padding: 7px 12px;
+    color: white;
+    background-color: $mainColor;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    margin: 20px;
+    &:hover{
+        background-color: $mainColorLight;
+    }
+  }
+
+  .justifyEvenly{
+      justify-content: space-evenly;
+      margin: 15px;
+  }
+
+  .inlineBlockDispaly{
+    display: inline-block !important;
+}
+
+.bold{
+    font-weight: 600;
+}
+
+.floatRight{
+    float: right;
+}

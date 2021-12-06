@@ -1,0 +1,52 @@
+
+
+.dashAddUser{
+
+    .dashAddUser__bodyLeft{
+        display: inline-block;
+        width: 35vw ;
+        min-width: 400px;
+        max-width:500px ;
+        vertical-align: top ;
+    }
+    .dashAddUser__bodyRight{
+        display: inline-block;
+        width: 35vw ;
+        min-width: 400px;
+        max-width:500px ;
+        vertical-align: top ;
+    }
+    .dashAddUser__line{
+        @extend .flowRow ;
+        .dashAddUser__lineLeft{
+            width:30% ;
+            font-weight:600;
+        }
+        .dashAddUser__lineRight{
+            height: 20px;
+        }
+    }
+    .dashAddUser__btnDiv{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        .dashAddUser__Button{
+          padding: 7px 12px;
+          color: white;
+          background-color: $mainColor;
+          border: none;
+          font-weight: 600;
+          font-size: 16px;
+          cursor: pointer;
+          &:hover{
+              background-color: $mainColorLight;
+          }
+        }
+    }
+    .dASLR__selector{
+        width:160px ;
+        height: 30px;
+    }
+}

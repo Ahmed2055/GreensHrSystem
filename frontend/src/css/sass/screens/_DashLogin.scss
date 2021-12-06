@@ -1,0 +1,120 @@
+@media (max-width: 667px) {
+    .login {
+      .login__logoPic {
+        width: 200px;
+      }
+    }
+    .loginBox__Msg{
+      font-size: 9px !important;
+    }
+  }
+  
+  @media (min-width: 668px) {
+    .login {
+      .login__logoPic {
+        width: 250px;
+      }
+    }
+  }
+  
+
+  body {
+    background-color: $lightShade;
+  }
+  
+  .dashLogin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 90vw;
+    height: 100vh;
+    padding: 0 5vw;
+    .login__logo {
+      margin: 40px auto;
+      box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+      width: 70vw;
+      max-width: 180px;
+      .login__logoPic {
+        background-color: $lightShade;
+        width: 100%;
+        object-fit:contain ;  
+      }
+    }
+    .loginBox {
+      padding: 0 5vw;
+      width: 80vw;
+      max-width: 250px;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      border-radius: 10px;
+      .loginBox__text {
+        color: $darkShade;
+      }
+      .loginBox__input {
+        margin-left: 3px;
+        width: 90%;
+        height: 30px;
+        margin: 5px 0 5px 3px;
+        padding: 1px 3px;
+        font-size: 14px;
+        &:focus{
+            border:  2px solid $mainColor;
+        }
+      }
+      .loginBox__buttons {
+        display: flex;
+        flex-grow: row;
+        align-items: center;
+        padding: 20px 2px 0 2px;
+        margin-bottom: 10px;
+        .loginBox__loginSubmit {
+          padding: 7px 12px;
+          color: white;
+          background-color: $mainColor;
+          border: none;
+          font-weight: 600;
+          font-size: 16px;
+          cursor: pointer;
+          &:hover{
+              background-color: $mainColorLight;
+          }
+        }
+        .loginBox__passwordResetLink{
+            text-decoration: none;
+            &:hover{
+                text-decoration: underline;
+                color: $mainColorLight;
+            }
+              .loginBox__passwordReset{
+                  font-size: 14px;
+                  margin-left: 10px;
+                  color: $mainColor;
+                  font-weight: 500;
+                  text-decoration: none;
+                  &:hover{
+                      color: $mainColorLight;
+                  }
+              }
+        }
+       
+      }
+      
+    }
+  }
+  
+  .loginBox__buttonsInside{
+    position: relative;
+    top: 13px;
+    margin-left: 25px;
+    
+    .loginBox__Msg{
+      margin: 0 !important;
+    }
+  }
+  
+  .loginBox__Msg{
+    font-size: 12px;
+    text-align: center;
+    color: red;
+    margin-bottom: 10px;
+  }

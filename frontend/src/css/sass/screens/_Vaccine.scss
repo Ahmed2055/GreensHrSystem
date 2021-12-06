@@ -1,0 +1,106 @@
+@media (max-width: 667px) {
+    .vaccine__container{
+        min-width:400px !important  ;
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 668px) {}
+
+
+.vaccine{
+
+    .vaccine__container{
+        padding: 1.5vw;
+        background-color: white;
+        width:60vw;
+        min-width:500px ;
+        margin: 15px auto;
+        .vaccine__title{
+            @extend .flowRow;
+            margin-left: 1vw;
+            color: $mainColor;
+            justify-content: space-between;
+            border-bottom: 1px solid $lightShade;
+            .vaccine__titleLeft{
+                @extend .flowRow;
+                .vaccine__titleText{
+                    margin-left: 2vw;
+                    color: $mainColor;
+                }
+            }
+            .vaccine__btnExpand{
+                float: right; 
+                position: relative;
+                top: 3px;
+                cursor: pointer;
+                z-index: 1;
+            }
+        }
+        .vaccine__details{
+            margin-top: 15px;
+            .vaccine__detail{
+                @extend .flowRow;
+                align-items: center;
+                .vaccine__detailTitle{
+                    width: 30%;
+                    min-width: 200px;
+                    font-weight: 600;
+                }
+                .vaccine__detailInput{
+                    font-size: 13px;
+                    width: auto;
+                    margin-right: 7px;
+                    background-color: $mainColor;
+                    padding: 2px 3px;
+                    border: 1px solid $darkShade;
+                    color: white;
+                    margin-left: 1vw;
+                    font-weight: 600;
+                }
+                .vaccine__DatePicker{
+                    background-color: white;
+                    width: auto;
+                    margin-right: 7px;
+                    padding: 2px 3px;
+                    color: white;
+                    margin-left: 1vw;
+                }
+                .vaccine__detailSelector{
+                    width: auto;
+                    margin: 5px 7px 5px 1vw;
+                    padding: 2px 3px;
+                    color: black;
+                }
+                .vaccine__checkBox{
+                    width: 20px;
+                    height: 20px;
+                    margin-top: 5px;
+                    margin-left: 1vw;
+                    margin-right: 7px;
+                    padding: 3px;
+                }
+            }
+            .red{
+                color: red;
+            }
+        }
+        .vaccine__submit{
+            margin: 10px auto;
+            width :20%;
+            .vaccine__submitBtn{
+                width :90px;
+                height: 30px ;
+                background-color: $mainColor ;
+                margin:auto ;
+                color:white ;
+                font-size :1em ;
+                font-weight:600 ;
+                border : none  ;
+                &:hover{
+                    background-color: $mainColorLight;
+                }
+            }
+        }
+    }
+}

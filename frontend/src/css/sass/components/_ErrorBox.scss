@@ -1,0 +1,15 @@
+.errorBox{
+    background-color: pink ;
+    width: 70vw ;
+    margin: 1vh 10vw ;
+    padding: 0 15px ;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    border:1px solid red;
+}
+
+.errorBox__message{
+    margin:3px;
+    margin-left:10px;
+}

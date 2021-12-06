@@ -1,0 +1,110 @@
+@media (max-width: 667px) {
+    .payrollDetails__personalDetails{
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        float: left !important;
+    }
+    .payrollDetails__personalDetail{
+        font-size: 11px !important;
+        float: left !important;
+        margin: 1vh 0;
+    }
+    .payrollDetails__detailTitle{
+    }
+    .submit{
+        margin-left: 75px !important;
+    }
+    .pd__Dates{
+        margin-right: 15px !important;
+    }
+
+    .ps__mobileHidden{
+        display: none;
+    }
+    .payrollSlips__td{
+        font-size: 0.85em !important;
+    }
+}
+
+@media (min-width: 668px) {}
+
+
+.payrollDetails{
+
+    .payrollDetails__personalDetails{
+        @extend .flowRow;
+        justify-content: space-between;
+        padding: 1vh 3vw;
+        .payrollDetails__personalDetail{
+            font-size: 15px;
+            .payrollDetails__detailTitle{
+                font-size: 1em;
+            }
+            .payrollDetails__detailText{
+                background-color: $mainColor;
+                padding: 2px 3px;
+                border: 1px solid $darkShade;
+                color: white;
+                margin-left: 1vw;
+                font-size: 1em;
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+.submit{
+    padding: 5px 8px !important;
+    background-color: $mainColor;
+    font-size: 1em;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-right: 2vw;
+    cursor: pointer;
+    font-size:  1.25em !important;
+    &:hover{
+        background-color: $mainColorLight !important;
+    }
+    
+}
+
+
+.payrollSlips{
+    margin-top: 15px;
+    .payrollSlips__table{
+        width: 100%;
+        border-spacing:2vw 5px ;
+        font-size: 14px;
+        .payrollSlips__thead{
+            margin-bottom: 2vh;
+        }
+        .payrollSlips__tbody{
+            margin-top: 10px;
+        }
+        .payrollSlips__tr{
+
+        }
+        .payrollSlips__td{
+            padding: auto;
+            font-size: 1.05em;
+            padding: 2px 4px;
+        }
+        .pdHead{
+            font-weight: 600;
+        }
+        .ps__viewBtn{
+            background-color: $mainColor ;
+            color: white;
+            cursor: pointer;
+            border: 1px solid $mediumShade;
+            width: 60%;
+            min-width: 50px;
+            height: 100%;
+            padding:2px 8px;
+            text-decoration: none;
+            &:hover{
+                background-color: $mainColorLight ;
+                text-align: center;
+            }
+        }
+    }
+}
