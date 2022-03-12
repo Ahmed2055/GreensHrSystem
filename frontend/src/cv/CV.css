@@ -1,0 +1,93 @@
+.cv{
+    display: flex;
+    flex-direction: column;
+    margin: 0 ;
+    background-color: white;
+}
+.cdInner{
+
+    margin : 50px 30px ;
+    padding : 30px 30px ;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.cvHeader{
+    display: flex;
+    flex-direction: column;
+    position :relative ;
+
+}
+.cvHeader__first{
+ 
+}
+.cvHeader__name{
+    color: #07aba0 ;
+    font-size: 2em;
+    margin: 15px;
+}
+.cvHeader__position{
+    margin : 15px ;
+    font-weight: 600;
+    font-size: 1em;
+}
+.cvHeader__second{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #ecf0f1;
+    padding : 10px ;
+}
+.cvHeader__secondDetail{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 8px ;
+}
+.cvHeader__secondDetailIcon{
+    background-color: #bdc3c7;
+    border-radius: 50%;
+    padding: 3px;
+}
+.cvHeader__secondDetailText{
+    font-size: 0.7em;
+    margin-left: 5px;
+}
+.cvHeader__picDiv{
+    position :absolute ;
+    right :0px ;
+    top:10px ;
+    background-color: white;
+    border: 2px solid black;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.cvHeader__pic{
+    width:120px ;
+    margin:5px 3px;
+}
+.cvDepartment{
+    
+    margin: 15px;
+}
+.cvDepartment__title{
+    color: #07aba0 ;
+    margin-bottom: 10px;
+    border-bottom: 3px solid #bdc3c7;
+    width: max-content;
+    padding:5px ;
+}
+.cvDepartment__body{
+    font-size: 0.9em;
+}
+.cvDepartment__experience{
+
+}
+.cvDepartment__experienceTitle{
+    font-weight: 600;
+    margin:3px ;
+}
+.cvDepartment__experienceText{
+    font-size: 0.8em;
+    
+    margin: 0;
+    padding:0 ;
+    margin-left: 10px;
+}

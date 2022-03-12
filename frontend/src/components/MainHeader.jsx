@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect}from 'react'
 import { BrowserRouter as Router, Switch, Route, Link, useHistory} from "react-router-dom";
 import companyLogo from '../pics/companyLogo.png';
 import FaceIcon from '@mui/icons-material/Face';
@@ -8,6 +8,7 @@ import { useSelector, useDispatch } from "react-redux";
 function MainHeader() {
     const history = useHistory();
     const user = useSelector(selectUser);
+
 
 
     return (

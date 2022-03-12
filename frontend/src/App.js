@@ -24,6 +24,11 @@ import AccAllUsers from "./screens/AccAllUsers";
 import AccHome from "./screens/AccHome";
 import SlipPage from "./screens/SlipPage";
 import AdminLeavePage from "./screens/AdminLeavePage";
+import TrendingShortages from "./screens/TrendingShortages";
+import CV from "./cv/CV.jsx";
+import VisitsHistory from "./screens/VisitsHistory";
+import VisitPage from "./screens/VisitPage";
+import PharmacistVisitsHistory from "./screens/PharmacistVisitsHistory";
 
 function App() {
     const user = useSelector(selectUser);
@@ -62,7 +67,10 @@ function App() {
                             <DashAddUser />
                         </Route>
                         <Route path="/visitsHistory">
-                            <NotDeveloped />
+                            <VisitsHistory />
+                        </Route>
+                        <Route path={`/visitPage/:visitId`}>
+                            <VisitPage />
                         </Route>
                         <Route path="/dashVisitAdd">
                             <DashVisitAdd />
@@ -78,20 +86,32 @@ function App() {
 
                 {!user.isAdmin && !user.isAccountant && (
                     <Switch>
+                        <Route path="/visitPage/:visitId">
+                            <VisitPage />
+                        </Route>
+                        <Route path="/cv">
+                            <CV />
+                        </Route>
                         <Route path="/profile">
                             <Profile />
                         </Route>
                         <Route path="/overtimeRequest">
                             <NotDeveloped />
                         </Route>
-                        <Route path="/dailyReports">
+                        <Route path="/salesReports">
                             <DailyReports />
+                        </Route>
+                        <Route path="/trendingShortages">
+                            <TrendingShortages />
+                        </Route>
+                        <Route path="/labourCheck">
+                            <NotDeveloped />
                         </Route>
                         <Route path="/monthlyKPIs">
                             <NotDeveloped />
                         </Route>
                         <Route path="/visitsHistory">
-                            <NotDeveloped />
+                            <PharmacistVisitsHistory />
                         </Route>
                         <Route path={`/leavePage/:leaveId`}>
                             <LeavePage />

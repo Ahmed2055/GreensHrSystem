@@ -13,6 +13,9 @@
 @import './sass/components/_MonthlyReport.scss';
 @import './sass/components/_PharmacyReport.scss';
 @import './sass/components/_ErrorBox.scss';
+@import './sass/components/_ShortageComponent.scss';
+@import './sass/components/_AddShortage.scss';
+@import './sass/components/_VisitComponent.scss';
 @import './sass/screens/_Login';
 @import './sass/screens/_Home';
 @import './sass/screens/_Vaccine';
@@ -34,3 +37,7 @@
 @import './sass/screens/_LeaveRequests.scss';
 @import './sass/screens/_ReturnRequests.scss';
 @import './sass/screens/_AccAllUsers.scss';
+@import './sass/screens/_TrendingShortages.scss';
+@import './sass/screens/_VisitsHistory.scss';
+@import './sass/screens/_VisitPage.scss';
+

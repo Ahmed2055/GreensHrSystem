@@ -1,7 +1,7 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState} from 'react'
 import { Link , useHistory} from 'react-router-dom'
 import Cookies from 'js-cookie';
-import { useSelector, useDispatch } from "react-redux";
+import { useDispatch } from "react-redux";
 import { setUser } from "../features/auth/authSlice";
 import FlightTakeoffIcon from '@mui/icons-material/FlightTakeoff';
 import FlightLandIcon from '@mui/icons-material/FlightLand';
@@ -10,7 +10,10 @@ import HistoryIcon from '@mui/icons-material/History';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import AddToPhotosIcon from '@mui/icons-material/AddToPhotos';
 import AssessmentIcon from '@mui/icons-material/Assessment';
-
+import EqualizerIcon from '@mui/icons-material/Equalizer';
+import TrendingUpIcon from '@mui/icons-material/TrendingUp';
+import ChangeCircleIcon from '@mui/icons-material/ChangeCircle';
+import VaccinesIcon from '@mui/icons-material/Vaccines';
 
 function SecondHeader() {
 
@@ -107,7 +110,30 @@ function SecondHeader() {
                  <div className="secondHeader__LinkList hidden "></div> }
             </div>
 
-            <Link to='/dailyReports' className="secondHeader__Link"  > Daily Reports </Link>
+            <div  className="secondHeader__Link"  onClick={()=>handleSecondHeaderLink('dt')} > Daily Reports
+                {secondHeaderActive === 'dt'? 
+                <div className="secondHeader__LinkList  ">
+                    <Link to='/salesReports' className="secondHeader__LinkItem">
+                        <EqualizerIcon color='inherit' />
+                        <p className="secondHeader__LinkText">Sales Reports</p>
+                    </Link>
+                    <Link to='/trendingShortages' className="secondHeader__LinkItem">
+                        <TrendingUpIcon color='inherit' />
+                        <p className="secondHeader__LinkText">Trending Shortages</p>
+                    </Link>
+                    <Link to='/labourCheck' className="secondHeader__LinkItem">
+                        <ChangeCircleIcon color='inherit' />
+                        <p className="secondHeader__LinkText">Labour Check In/Out</p>
+                    </Link>
+                    <Link to='/vaccine' className="secondHeader__LinkItem">
+                        <VaccinesIcon color='inherit' />
+                        <p className="secondHeader__LinkText">Vaccination Reports</p>
+                    </Link>
+                </div> 
+                : 
+                 <div className="secondHeader__LinkList hidden "></div> }
+                
+            </div>
             <div  className="secondHeader__Link"  onClick={()=>handleSecondHeaderLink('ev')} > Evaluation
                 {secondHeaderActive === 'ev'? 
                 <div className="secondHeader__LinkList  ">
@@ -140,8 +166,6 @@ function SecondHeader() {
                 :
                 <div className="secondHeader__LinkList hidden "></div>  }
             </div>
-
-            <Link to='/vaccine' className="secondHeader__Link" onClick={()=>setSecondHeaderActive(null)}> Vaccination </Link>
 
         </div>
         </>

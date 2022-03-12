@@ -1,11 +1,10 @@
-import React,{useState, useEffect} from 'react'
-import Cookies from 'js-cookie';
+import React from 'react'
 import LocationHeader from '../components/LocationHeader'
 import MainHeader from '../components/MainHeader'
 import SecondHeader from '../components/SecondHeader'
 import { useSelector, useDispatch } from "react-redux";
 import {selectUser} from '../features/auth/authSlice';
-import { Link , useHistory} from 'react-router-dom'
+import {useHistory} from 'react-router-dom'
 import AddDailyReport from './AddDailyReport';
 
 function DailyReports() {

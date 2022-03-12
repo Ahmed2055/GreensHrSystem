@@ -9,7 +9,8 @@ import leaveRouter from './routers/leaveRouter.js';
 import payrollRouter from './routers/payrollRouter.js';
 import reportRouter from './routers/reportRouter.js';
 import pharmacyRouter from './routers/pharmacyRouter.js';
-
+import trendingShortageRouter from './routers/trendingShortageRouter.js';
+import visitRouter from './routers/visitRouter.js';
 
 
 dotenv.config();
@@ -24,7 +25,17 @@ app.use((request,response,next)=>{
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+/*
+
 mongoose.connect(process.env.MONGODB_URL || 'mongodb+srv://ahmed2055:ahmed2055123@cluster0.plbaa.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+  useCreateIndex: true,
+});
+
+*/
+
+mongoose.connect(process.env.MONGODB_URL || 'mongodb://ahmed2055:ahmed2055123@cluster0-shard-00-00.plbaa.mongodb.net:27017,cluster0-shard-00-01.plbaa.mongodb.net:27017,cluster0-shard-00-02.plbaa.mongodb.net:27017/myFirstDatabase?ssl=true&replicaSet=atlas-dps53r-shard-0&authSource=admin&retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,
@@ -35,13 +46,19 @@ app.use('/api/leaves', leaveRouter)
 app.use('/api/payrolls', payrollRouter)
 app.use('/api/reports', reportRouter)
 app.use('/api/pharmacies', pharmacyRouter)
+app.use('/api/trendingShortages', trendingShortageRouter)
+app.use('/api/visits', visitRouter)
 
 const __dirname = path.resolve();
 app.use('/uploads', express.static(path.join(__dirname, '/uploads')));
 app.use(express.static(path.join(__dirname, '/frontend/build')));
+
+
+/*
 app.get('*', (req, res) =>
   res.sendFile(path.join(__dirname, '/frontend/build/index.html'))
 );
+*/
 
 
 app.use((err, req, res, next) => {

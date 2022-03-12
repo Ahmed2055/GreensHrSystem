@@ -1,43 +1,44 @@
-$mainColor : #07ABA0 ;
-$mainColorLight : #37DBD0 ;
-$mainColorDark :#015b51;
-$lightShade : #ECF0F1 ;
-$mediumShade : #BDC3C7 ;
-$darkShade : #7F8C8D ;
-$mainFontSize:16px;
+$mainColor: #07aba0;
+$mainColorLight: #37dbd0;
+$mainColorDark: #015b51;
+$lightShade: #ecf0f1;
+$mediumShade: #bdc3c7;
+$darkShade: #7f8c8d;
+$mainFontSize: 16px;
 
-
-.hidden{
+.hidden {
     display: none;
 }
 
-.visible{
+.visible {
     visibility: none;
 }
 
-.flowRow{
+.flowRow {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
-.mainDarkColor{
+.mainDarkColor {
     color: $mainColorDark !important ;
 }
 
-.darkBtn{
+.darkBtn {
     background-color: $mainColorDark !important ;
 }
 
-.underlined{
+.underlined {
     text-decoration: underline;
 }
 
-.verticallyBordered{
+.verticallyBordered {
     border-top: 2px solid black;
     border-bottom: 2px solid black;
     width: 50px;
 }
 
-@media (max-width: 667px) {}
+@media (max-width: 667px) {
+}
 
-@media (min-width: 668px) {}
+@media (min-width: 668px) {
+}

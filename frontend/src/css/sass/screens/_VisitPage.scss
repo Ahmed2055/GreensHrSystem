@@ -1,0 +1,79 @@
+@media (max-width: 667px) {
+}
+
+@media (min-width: 668px) {
+}
+
+.visitPage {
+    .visitPage__details {
+        .visitPage__detail {
+            @extend .flowRow;
+            padding: 5px 2%;
+            .visitPage__title {
+                width: 30%;
+                min-width: 150px;
+                margin: 2px 3%;
+                font-weight: 600;
+            }
+            .visitPage__data {
+                border: 2px solid $mainColorDark;
+                padding: 2px 10px;
+                background-color: $lightShade;
+                min-width: 100px;
+                min-height: 20px;
+                text-align: center;
+            }
+        }
+    }
+    .visitPage__standards {
+        .visitPage__standardsPharmacy {
+            margin: 35px 5% 15px 5%;
+            display: inline-block;
+            vertical-align : top ;
+        }
+        .visitPage__standardsPharmacist {
+            margin: 35px 5% 15px 5%;
+            display: inline-block;
+            vertical-align : top ;
+        }
+        .vpTable {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 40%;
+            min-width: 400px;
+            .vpTable__Head {
+            }
+            .vpTable__Body {
+            }
+
+            .vpTable__line {
+                .vpTable__lineStandard {
+                }
+                .vpTable__lineGrade {
+                    width: 20%;
+                }
+                .vpTable__lineRemarks {
+                }
+            }
+            th {
+                padding: 12px 15px;
+                border: 3px solid $mainColorDark;
+                background-color: $mainColorLight;
+            }
+            td {
+                border: 1px solid $mainColorDark;
+                padding: 8px;
+                text-align: center;
+            }
+            tr:nth-child(even) {
+                background-color: rgb(253, 182, 48);
+            }
+            tr:nth-child(odd) {
+                background-color: yellow;
+            }
+        }
+        .vpTable__total{
+            margin-top: 40px ;
+        }
+    }
+}

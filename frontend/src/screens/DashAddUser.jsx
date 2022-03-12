@@ -1,11 +1,10 @@
 import React, { useState, useEffect} from 'react'
 import { useSelector, useDispatch } from "react-redux";
 import {selectUser} from '../features/auth/authSlice';
-import { BrowserRouter as Router, Switch, Route, Link, useHistory, useRouteMatch, useParams} from "react-router-dom";
+import {useHistory} from "react-router-dom";
 import DashSecondHeader from '../components/DashSecondHeader';
 import LocationHeader from '../components/LocationHeader';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import AssignmentIcon from '@mui/icons-material/Assignment';
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import axios from '../store/axios';
@@ -13,10 +12,7 @@ import axios from '../store/axios';
 function DashAddUser() {
 
     const dispatch = useDispatch();
-    const user = useSelector(selectUser);
     const history = useHistory();
-
-    const [state, setstate] = useState({pharmacies:[]});
 
 
         const [email, setEmail] = useState('')

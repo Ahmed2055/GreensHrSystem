@@ -4,7 +4,7 @@ import { setUser } from "../features/auth/authSlice";
 import { Link , useHistory} from 'react-router-dom'
 import Cookies from 'js-cookie';
 import companyLogo from '../pics/companyLogo.png'
-import Axios from '../store/axios';
+import axios from '../store/axios';
 
 
 
@@ -22,7 +22,7 @@ function Login() {
     const [submitBtnPressed, setSubmitBtnPressed] = useState(false)
 
     const submitHandler = ()=>{
-    Axios.post('/api/users/signin', { email:email, password:password })
+    axios.post('/api/users/signin', { email:email, password:password })
       .then((response) => {
         const data = response.data
         dispatch(setUser(data))

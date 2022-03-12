@@ -1,0 +1,31 @@
+@media (max-width: 667px) {
+}
+
+@media (min-width: 668px) {
+}
+
+
+.addShortage{
+
+    border-radius: 15px ;
+    margin: 10px 3% ;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    .addShortage__Line{
+        @extend .flowRow;
+        padding : 0 3% ;
+        .addShortage__title{
+            font-weight: 600;
+            margin-right: 3% ;
+            min-width:150px ;
+        }
+        .addShortage__input{
+            height: 20px ;
+            width: 40%;
+            min-width:150px ;
+
+        }
+    }
+    .addShortage__btn{
+        margin-left :40% ;
+    }
+}

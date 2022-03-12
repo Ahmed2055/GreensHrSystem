@@ -1,3 +1,99 @@
-@media (max-width: 667px) {}
+@media (max-width: 667px) {
+}
 
-@media (min-width: 668px) {}
+@media (min-width: 668px) {
+}
+
+.dashVisitAdd {
+    .dashVisitAdd__pharmacyStandards {
+        background-color: rgb(252, 252, 57);
+        padding: 2%;
+        margin-top: 20px;
+        border-radius: 10px;
+        .dashVisitAdd__standardsRemark{
+            font-size: 0.7em;
+            margin: 0 auto;
+            text-align: center;
+        }
+    }
+    .dashVisitAdd__personalStandards {
+        background-color: rgb(253, 182, 48);
+        padding: 2%;
+        margin-top: 20px;
+        border-radius: 15px;
+    }
+    .dashVisitAdd__standardsTitle {
+        text-align: center;
+        color: $mainColorDark;
+        width: fit-content;
+        padding: 2px 2%;
+        margin: 3px auto;
+    }
+    .dashVisitAdd__standard {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        .dvaS__title {
+            width: 40%;
+            min-width: 120px;
+            font-weight: 600;
+            margin-right: 10%;
+            font-size: 1.1em;
+        }
+        .dvaS__detail {
+            width: 50px;
+            height: 30px;
+            margin-right: 10%;
+            font-size: 1.2em;
+        }
+        .dvaS__notes {
+            width: 30%;
+            min-width: 120px;
+            height: 25px;
+            font-size: 1.1em;
+            border: 1px solid lightgray;
+            padding: 1%;
+        }
+    }
+    .dashVisitAdd__btnDiv{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .dashVisitAdd__names{
+        padding: 2%;
+        .dashVisitAdd__nameLine{
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            .dvaN__title{
+                width: 60%;
+                min-width: 120px;
+                font-weight: 600;
+                margin-right: 10%;
+                font-size: 1.1em;
+            }
+            .dvaN__name{
+                width:fit-content ;
+                height: 30px;
+                font-size: 1.1em;
+                max-width :200px;
+            }
+        }
+    }
+    .generalRemarksInput{
+        min-width: 50% ;
+        width:fit-content ;
+        height: 25px;
+        font-size: 1.1em;
+        border: 1px solid lightgray;
+        padding: 1%;
+    }
+}

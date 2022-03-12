@@ -1,0 +1,83 @@
+@media (max-width: 667px) {
+    .shortageDetails{
+        min-width: 90% !important;
+    }
+}
+
+@media (min-width: 668px) {
+    .shortageDetails{
+
+    }
+}
+
+
+.shortageComponent{
+    width: 90%;
+    background-color: white;
+    margin: 5px 3%;
+    padding: 2px 2%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background-image: linear-gradient(to right, rgb(255, 0, 0) , rgb(255, 255, 0));
+    color: white;
+    .shortageDetails{
+        @extend .flowRow;
+        align-items:center;
+        justify-content: space-between ;
+        margin: 0 2px;
+        width: 90%;
+        min-width: 470px;
+        .shortageDetail{
+            margin: 0 2%;
+            .shortageDetail__Pic{
+
+                height:38px;
+                object-fit: contain;
+                border-radius:5px;
+                &:hover{
+                    border: 1px solid rgb(1, 188, 250);
+                    height:36px;
+                }
+            }
+        }
+        .shortageLikes{
+            @extend .flowRow;
+            align-items:center;
+            justify-content: space-between;
+            position:relative ;
+            .smallMargin{
+                margin-right:5px;
+                &:hover{
+                    cursor: pointer;
+                    text-decoration: underline;
+                }
+            }
+            .shortageLikes__likersBox{
+                position: absolute;
+                width:fit-content;
+                min-width: 180px ;
+                background-color: rgba(255, 255, 255, 0.862);
+                color: black;
+                font-size: 0.8em;
+                top:25px;
+                padding: 7px ;
+                border-radius:5px ;
+                z-index:2;
+                .shortageLikes__liker{
+                    display:block;
+                }
+            }
+        }
+    }
+    .shortageLike{
+
+        &:hover{
+            cursor: pointer;
+        }
+
+    }
+}

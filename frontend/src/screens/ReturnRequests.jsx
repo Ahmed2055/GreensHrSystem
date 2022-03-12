@@ -1,5 +1,4 @@
 import React,{useState, useEffect} from 'react'
-import Cookies from 'js-cookie';
 import { useSelector, useDispatch } from "react-redux";
 import {selectUser} from '../features/auth/authSlice';
 import { BrowserRouter as Router, Switch, Route, Link, useHistory, useRouteMatch, useParams} from "react-router-dom";
@@ -15,9 +14,6 @@ function ReturnRequests() {
     const user = useSelector(selectUser);
     const history = useHistory();
     let match = useRouteMatch();
-
-    const [cookiesEmail, setCookiesEmail] = useState(Cookies.get('email'))
-    const [cookiesPassword, setCookiesPassword] = useState(Cookies.get('password'))
 
     
 
